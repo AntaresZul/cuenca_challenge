@@ -1,15 +1,13 @@
-# Tutorial_DockerPythonPostgres
+# Saul Penaloza Cuenca Challenge
 
-Here is available the code of the Medium tutorial here: XXXX
+These are the instructions to initialize the docker-compose solution. (It is assumed that Docker and Docker Compose are previously installed on your machine)
 
-## Create db table
+## Build and Initialize Docker
 
-Commands to create the db table:
+> docker-compose up --build
 
-> docker ps 
+## Inspect database
 
-Used to identify the CONTAINER ID of postgres
-
-> docker exec -it <CONTAINER_ID> bash
+> docker exec -it cuenca_test_db_1 bash
 
 > psql postgres://username:secret@localhost:5432/database
