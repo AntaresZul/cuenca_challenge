@@ -58,8 +58,8 @@ class Chess:
 if __name__ == '__main__':
     print('Application started')
     
-    # num_queens = input('Enter number of queens: ')
-    num_queens = 10
+    #num_queens = input('Enter number of queens: ')
+    num_queens = 8
     for queens in range(num_queens + 1):
         
         print("Solving for " + str(queens) + " Queens")
