@@ -6,8 +6,4 @@ These are the instructions to initialize the docker-compose solution. (It is ass
 
 > docker-compose up --build
 
-## Inspect database
 
-> docker exec -it cuenca_test_db_1 bash
-
-> psql postgres://username:secret@localhost:5432/database
