@@ -7,3 +7,7 @@ These are the instructions to initialize the docker-compose solution. (It is ass
 > docker-compose up --build
 
 
+## Pytest
+
+> python -m unittest app/tests.py
+
