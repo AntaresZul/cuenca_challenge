@@ -48,18 +48,16 @@ class Chess:
             else:
                 self.current_solution[row] = col
                 if row == (self.num_queens - 1):
-                    #  last row
                     self.solutions.append(self.current_solution)
-                    # print( "Solution number ", len( solutions ), current_solution)
                 else:
                     self.place_queen(row + 1)
 
 
 if __name__ == '__main__':
     print('Application started')
-    
     #num_queens = input('Enter number of queens: ')
-    num_queens = 15
+    
+    num_queens = 13
     for queens in range(num_queens + 1):
         
         print("Solving for " + str(queens) + " Queens")
